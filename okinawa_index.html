@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Okinawa</title>
+    <link rel="stylesheet" href="./resource/css/okinawa.css">
+    <script type="text/javascript" charset="utf-8" src="./resource/js/okinawa.js"></script>
+</head>
+<body>
+    <div class="app">
+        <header class="app-header">
+            <div class="header-top-box">
+                <span class="text">OKINAWA TRIP</span>
+            </div>
+            <div class="header-middle-box">
+                <h1 class="title">현은 &hearts; 해규 <span class="tiny_title">(with &#x1f347;)</span></h1>
+            </div>
+            <div class="header-bottom-box">
+                <div class="date-box">&#x1f4c5; 2026.11.04 (수) &#126; 11.07 (토) &middot; 3박 4일</div>
+            </div>
+        </header>
+        <main>
+            <section class="card-section">
+                <article class="card-button-wrap">
+                    <button type="button">
+                        <span aria-hidden="true">&#x1F5D3;</span>
+                        <span>일정표</span>
+                    </button>
+                    <button type="button">
+                        <span aria-hidden="true">&#x1F4CD;</span>
+                        <span>지도</span>
+                    </button>
+                    <button type="button">
+                        <span aria-hidden="true">&#x1F4CD;</span>
+                        <span>쇼핑</span>
+                    </button>
+                    <button type="button">
+                        <span aria-hidden="true">&#x2705;</span>
+                        <span>준비물</span>
+                    </button>
+                </article>
+            </section>
+            <section class="content-section">
+                <article class="schedule active">
+                    <div class="article-header">
+                        <h2>여행 일정표</h2>
+                        <button type="button" class="schedule-back-button" aria-label="뒤로가기" style="display: none;">Back</button>
+                    </div>
+                    <div class="article-body">
+                        <div class="schedule-preview-list">
+                            <ul>
+                                <li>
+                                    <div class="day-box">
+                                        <p>DAY</p>
+                                        <p>01</p>
+                                    </div>
+                                    <div class="schedule-preview-text">
+                                        <p>한국 &#x2708; 오키나와 나하</p>
+                                        <p>11월 4일 &middot; 일정 <span class="schedule-count"></span>개</p>
+                                    </div>
+                                    <button type="button" class="schedule-detail-button">
+                                        <span class="blind">자세히 보기</span>
+                                    </button>
+                                </li>
+                                <li>
+                                    <div class="day-box">
+                                        <p>DAY</p>
+                                        <p>02</p>
+                                    </div>
+                                    <div class="schedule-preview-text">
+                                        <p>아메리칸 빌리지 및 북부 여행</p>
+                                        <p>11월 5일 &middot; 일정 <span class="schedule-count"></span>개</p>
+                                    </div>
+                                    <button type="button" class="schedule-detail-button">
+                                        <span class="blind">자세히 보기</span>
+                                    </button>
+                                </li>
+                                <li>
+                                    <div class="day-box">
+                                        <p>DAY</p>
+                                        <p>03</p>
+                                    </div>
+                                    <div class="schedule-preview-text">
+                                        <p>국제거리</p>
+                                        <p>11월 6일 &middot; 일정 <span class="schedule-count"></span>개</p>
+                                    </div>
+                                    <button type="button" class="schedule-detail-button">
+                                        <span class="blind">자세히 보기</span>
+                                    </button>
+                                </li>
+                                <li>
+                                    <div class="day-box">
+                                        <p>DAY</p>
+                                        <p>04</p>
+                                    </div>
+                                    <div class="schedule-preview-text">
+                                        <p>오키나와 나하 &#x2708; 한국</p>
+                                        <p>11월 7일 &middot; 일정 <span class="schedule-count"></span>개</p>
+                                    </div>
+                                    <button type="button" class="schedule-detail-button">
+                                        <span class="blind">자세히 보기</span>
+                                    </button>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="schedule-detail-list">
+                            <div class="detail-box" id="day1">
+                                <p class="date-eyebrow">11.04 수요일</p>
+                                <h3 class="schedule-detail-title">오키나와 나하</h3>
+                                <ul class="list-wrap">
+                                    <li>
+                                        <p class="detail-time">11:50 ~ 14:25</p>
+                                        <div class="detail-content">
+                                            <p>한국 &#x2708; 오키나와 나하</p>
+                                            <ul class="sub-content">
+                                                <li>비행기 편명 : TW1802</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <p class="detail-time">14:25 ~ 16:00</p>
+                                        <div class="detail-content">
+                                            <p>입국수속 및 렌트카 수령</p>
+                                            <ul class="sub-content">
+                                                <li>스카이 렌트카 나하 공항점</li>
+                                                <li>렌트카 예약시간 15:30</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <p class="detail-time">16:00 ~ 16:30</p>
+                                        <div class="detail-content">
+                                            <p>파르코 시티로 이동</p>
+                                            <ul class="sub-content">
+                                                <li>가는길에 편의점 들려보기</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <p class="detail-time">16:30 ~ 18:40</p>
+                                        <div class="detail-content">
+                                            <p>파르코 시티 구경</p>
+                                            <ul class="sub-content">
+                                                <li>아카짱 혼포 방문</li>
+                                                <li>간단한 저녁 먹기</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <p class="detail-time">18:40 ~ 20:20</p>
+                                        <div class="detail-content">
+                                            <p>숙소로 이동</p>
+                                            <ul class="sub-content">
+                                                <li>숙소 : 힐튼 오키나와 세소코 리조트</li>
+                                                <li>가는길에 숙소에서 먹을 음식 사기</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <p class="detail-time">20:20 ~ </p>
+                                        <div class="detail-content">
+                                            <p>숙소에서 푹 쉬기</p>
+                                            <ul class="sub-content">
+                                                <li>Zzz...</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="detail-box" id="day2">
+                                <p class="date-eyebrow">11.05 목요일</p>
+                                <h3 class="schedule-detail-title">추라우미 수족관 및 아메리칸 빌리지 여행</h3>
+                                <ul class="list-wrap">
+                                    <li>
+                                        <p class="detail-time">6:30 ~ 7:00</p>
+                                        <div class="detail-content">
+                                            <p>일어나기</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <p class="detail-time">07:00 ~ 9:30</p>
+                                        <div class="detail-content">
+                                            <p>조식 식사 후 씻기</p>
+                                            <ul class="sub-content">
+                                                <li>조식 : 인당 &#x00A5;4000</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <p class="detail-time">09:30 ~ 12:30</p>
+                                        <div class="detail-content">
+                                            <p>추라우미 수족관 구경하기</p>
+                                            <ul class="sub-content">
+                                                <li>입장권 예매 완료</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <p class="detail-time">12:30 ~ 14:00</p>
+                                        <div class="detail-content">
+                                            <p>점심먹기!</p>
+                                            <ul class="sub-content">
+                                                <li>쇼군 버거</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <p class="detail-time">14:00 ~ 16:00</p>
+                                        <div class="detail-content">
+                                            <p>카페 이동 및 휴식</p>
+                                            <ul class="sub-content">
+                                                <li>반타 카페</li>
+                                                <li>지바고 카페</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <p class="detail-time">16:00 ~ 20:30</p>
+                                        <div class="detail-content">
+                                            <p>아메리칸 빌리지 구경하기</p>
+                                            <ul class="sub-content">
+                                                <li>주차장 : 이온몰 차탄점</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <p class="detail-time">20:30 ~ 21:30</p>
+                                        <div class="detail-content">
+                                            <p>숙소로 돌아가기</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <p class="detail-time">21:30 ~</p>
+                                        <div class="detail-content">
+                                            <p>푹 쉬기</p>
+                                            <ul class="sub-content">
+                                                <li>Zzz...</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="detail-box" id="day3">
+                                <p class="date-eyebrow">11.06 금요일</p>
+                                <h3 class="schedule-detail-title">체크아웃 후 국제거리로!</h3>
+                                <ul class="list-wrap">
+                                    <li>
+                                        <p class="detail-time">8:00 ~ 10:00</p>
+                                        <div class="detail-content">
+                                            <p>일어나서 씻기</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <p class="detail-time">10:00 ~ 13:00</p>
+                                        <div class="detail-content">
+                                            <p>체크아웃 후 아침먹기</p>
+                                            <ul class="sub-content">
+                                                <li>찾는중...</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <p class="detail-time">13:00 ~ 14:40</p>
+                                        <div class="detail-content">
+                                            <p>숙소 체크인 하기</p>
+                                            <ul class="sub-content">
+                                                <li>숙소 : 호텔 그랜드 콘소트 나하</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <p class="detail-time">14:40 ~ 15:30</p>
+                                        <div class="detail-content">
+                                            <p>숙소에서 휴식</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <p class="detail-time">15:30 ~ 20:30</p>
+                                        <div class="detail-content">
+                                            <p>국제거리 구경 및 저녁식사 하기</p>
+                                            <ul class="sub-content">
+                                                <li>찾는중....</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <p class="detail-time">20:30 ~ 21:00</p>
+                                        <div class="detail-content">
+                                            <p>숙소로 돌아가기</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <p class="detail-time">21:00 ~</p>
+                                        <div class="detail-content">
+                                            <p>푹 쉬기</p>
+                                            <ul class="sub-content">
+                                                <li>Zzz...</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="detail-box" id="day4">
+                                <p class="date-eyebrow">11.07 토요일</p>
+                                <h3 class="schedule-detail-title">집으로~</h3>
+                                <ul class="list-wrap">
+                                    <li>
+                                        <p class="detail-time">8:00 ~ 09:30</p>
+                                        <div class="detail-content">
+                                            <p>일어나서 씻기</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <p class="detail-time">09:30 ~ 10:30</p>
+                                        <div class="detail-content">
+                                            <p>체크아웃 후 아침먹기</p>
+                                            <ul class="sub-content">
+                                                <li>찾는중...</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <p class="detail-time">10:30 ~ 14:00</p>
+                                        <div class="detail-content">
+                                            <p>못가본곳 가보고 렌트카 반납</p>
+                                            <ul class="sub-content">
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <p class="detail-time">14:00 ~ 14:30</p>
+                                        <div class="detail-content">
+                                            <p>렌터카 업체에서 공항으로 셔틀버스 이용</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <p class="detail-time">14:30 ~ 16:50</p>
+                                        <div class="detail-content">
+                                            <p>면세 진행 및 입국 수속하기</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <p class="detail-time">16:50 ~ 19:15</p>
+                                        <div class="detail-content">
+                                            <p>오키나와 나하 &#x2708; 한국</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <p class="detail-time">19:15 ~</p>
+                                        <div class="detail-content">
+                                            <p>안전하게 집가기</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="map">
+                    <div class="article-header">
+                        <h2>지도</h2>
+                    </div>
+                </article>
+                <article class="shopping">
+                    <div class="article-header">
+                        <h2>쇼핑</h2>
+                    </div>
+                </article>
+                <article class="supply">
+                    <div class="article-header">
+                        <h2>준비물</h2>
+                    </div>
+                </article>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
