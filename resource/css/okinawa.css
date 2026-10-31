@@ -3,12 +3,13 @@
 html {scroll-behavior: smooth; font-size: 62.5%;}
 body {margin: 0; background-color: #f4faf7; font-family: system-ui,-apple-system,BlinkMacSystemFont,"Noto Sans KR",sans-serif;}
 .app {width: 100%; height: 100dvh; position: relative; background-color: #f8fcfa;}
-.app-header {display: flex; flex-direction: column; align-items: flex-start; justify-content: space-between; width: 100%; min-height: 30rem; padding: 2.4rem 2rem; background: linear-gradient(180deg, #006b79a8 0%, #007c80a8 45%, #e2a66c55 100%),  url('../img/header_flash.png') no-repeat center/cover; }
+.app-header {display: flex; flex-direction: column; align-items: flex-start; justify-content: space-between; width: 100%; min-height: 25rem; padding: 2.4rem 2rem; background: linear-gradient(180deg, #006b79a8 0%, #007c80a8 45%, #e2a66c55 100%),  url('../img/header_flash.png') no-repeat center/cover; }
 .app-header .header-top-box {display: flex; flex-direction: row; align-items: center; justify-content: space-between;}
 .app-header .header-top-box .text { font-size: 1.4rem; font-weight: 800; color: #fff; line-height: 1.5; letter-spacing: 0.15em; text-shadow: 0 1px 8px #064e4c88;}
-.app-header .header-middle-box {display: flex; flex-direction: column; gap: 2rem;}
+.app-header .header-middle-box {display: flex; flex-direction: column;}
 .app-header .header-middle-box .title {font-size: 3.5rem; font-weight: 700; color: #fff; line-height: 1.5; letter-spacing: -0.025em;}
-.app-header .header-middle-box .title > .tiny_title {font-size: 2rem; font-weight: 800; color: #fff; line-height: 1.5; letter-spacing: -0.025em;}
+.app-header .header-middle-box h2 {font-size: 2rem; font-weight: 700; color: #fff;}
+.app-header .header-middle-box h2 > .tiny_title {font-size: 1.5rem; font-weight: 800; color: #fff; line-height: 1.5; letter-spacing: -0.025em;}
 .app-header .header-bottom-box .date-box {display: inline-flex; flex-direction: row; align-items: center; justify-content: flex-start; padding: 1rem 1.2rem; background-color: #fff; border-radius: 1.6rem; font-size: 1.4rem; font-weight: 700; color: #176c68;}
 section:not(:first-child) {margin-top: 2rem;}
 .card-section {padding: 0 1.6rem;}
