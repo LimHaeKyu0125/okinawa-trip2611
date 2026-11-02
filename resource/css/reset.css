@@ -57,7 +57,7 @@ p {
   text-wrap: pretty;
 }
 h1, h2, h3, h4, h5, h6 {
-  text-wrap: balance;
+  text-wrap: pretty;
 }
 
 /* 8. 리스트 및 링크 스타일 초기화 */
