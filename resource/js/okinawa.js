@@ -75,4 +75,5 @@ document.addEventListener('DOMContentLoaded', () => {
             countElement.textContent = count;
         }
     });
+
 });
