@@ -8,8 +8,8 @@
 .map .map-region.active .map-region-content { display: block; }
 
 /* 카테고리 */
-.map .map-category-list { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.8rem; margin-bottom: 1.5rem; }
-.map .map-category-list li { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 0.6rem; padding: 1.3rem 0.5rem; border: 1px solid #e5efeb; border-radius: 1.2rem; background: #f8fcfa; cursor: pointer; }
+.map .map-category-list { display: flex; justify-content: space-between; gap: 0.8rem; margin-bottom: 1.5rem; }
+.map .map-category-list li { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 0.6rem; padding: 1.3rem 0.5rem; border: 1px solid #e5efeb; border-radius: 1.2rem; background: #f8fcfa; cursor: pointer; flex: 1;}
 .map .map-category-list li.active { border-color: #0eaaa4; background: #eaf8f4; }
 .map .map-category-list .category-icon { font-size: 2rem; }
 .map .map-category-list .category-name { font-size: 1.3rem; font-weight: 700; color: #173b3a; }
@@ -39,7 +39,7 @@
 .map-modal-content { position: relative; width: 100%; max-width: 60rem; max-height: 85dvh; overflow-y: auto; padding: 1.8rem 2rem calc(2.5rem + env(safe-area-inset-bottom)); background: #fff; border-radius: 2rem 2rem 0 0; animation: mapModalUp .25s ease; }
 @keyframes mapModalUp { from { transform: translateY(100%); } to { transform: translateY(0); } }
 .map-modal-handle { width: 4rem; height: 0.4rem; margin: 0 auto 2rem; border-radius: 1rem; background: #dce7e2; }
-.map-modal-close { position: absolute; top: 1.5rem; right: 2rem; width: 3.2rem; height: 3.2rem; border: none; border-radius: 50%; background: #f1f7f4; color: #176c68; font-size: 2rem; padding-bottom: 0.4rem;}
+.map-modal-close { position: fixed; top: 13.5rem; right: 2rem; width: 3.2rem; height: 3.2rem; border: none; border-radius: 50%; background: #f1f7f4; color: #176c68; font-size: 2rem; padding-bottom: 0.4rem;}
 .map-modal-label { display: inline-block; padding: 0.5rem 1rem; border-radius: 2rem; background: #e5f7f1; color: #087d7b; font-size: 1.2rem; font-weight: 700; }
 .map-modal-content h3 { margin: 1.2rem 0 0.8rem; font-size: 2rem; color: #173b3a; }
 .map-modal-content .modal-description { font-size: 1.3rem; line-height: 1.7; color: #82938e; }
