@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
     <title>Okinawa</title>
     <link rel="stylesheet" href="./resource/css/okinawa.css">
+    <link rel="stylesheet" href="./resource/css/map.css">
     <script type="text/javascript" charset="utf-8" src="./resource/js/okinawa.js"></script>
+    <script type="text/javascript" charset="utf-8" src="./resource/js/map.js" defer></script>
 </head>
 <body>
     <div class="app">
@@ -15,7 +17,7 @@
             </div>
             <div class="header-middle-box">
                 <h1 class="title">오키나와 태교여행</h1>
-                <h2>느니 &hearts; 해구렁 <span class="tiny_title">(with &#x1f347;)</span></h1>
+                <h2>느니 &hearts; 해구렁 <span class="tiny_title">(with &#x1f347;)</span></h2>
             </div>
             <div class="header-bottom-box">
                 <div class="date-box">&#x1f4c5; 2026.11.04 (수) &#126; 11.07 (토) &middot; 3박 4일</div>
@@ -52,55 +54,51 @@
                         <div class="schedule-preview-list">
                             <ul>
                                 <li>
-                                    <div class="day-box">
-                                        <p>DAY</p>
-                                        <p>01</p>
-                                    </div>
-                                    <div class="schedule-preview-text">
-                                        <p>한국 &#x2708; 오키나와 나하</p>
-                                        <p>11월 4일 &middot; 일정 <span class="schedule-count"></span>개</p>
-                                    </div>
                                     <button type="button" class="schedule-detail-button">
-                                        <span class="blind">자세히 보기</span>
+                                        <div class="day-box">
+                                            <p>DAY</p>
+                                            <p>01</p>
+                                        </div>
+                                        <div class="schedule-preview-text">
+                                            <p>한국 &#x2708; 오키나와 나하</p>
+                                            <p>11월 4일 &middot; 일정 <span class="schedule-count"></span>개</p>
+                                        </div>
                                     </button>
                                 </li>
                                 <li>
-                                    <div class="day-box">
-                                        <p>DAY</p>
-                                        <p>02</p>
-                                    </div>
-                                    <div class="schedule-preview-text">
-                                        <p>아메리칸 빌리지 및 북부 여행</p>
-                                        <p>11월 5일 &middot; 일정 <span class="schedule-count"></span>개</p>
-                                    </div>
                                     <button type="button" class="schedule-detail-button">
-                                        <span class="blind">자세히 보기</span>
+                                        <div class="day-box">
+                                            <p>DAY</p>
+                                            <p>02</p>
+                                        </div>
+                                        <div class="schedule-preview-text">
+                                            <p>아메리칸 빌리지 및 <br/>북부 여행</p>
+                                            <p>11월 5일 &middot; 일정 <span class="schedule-count"></span>개</p>
+                                        </div>
                                     </button>
                                 </li>
                                 <li>
-                                    <div class="day-box">
-                                        <p>DAY</p>
-                                        <p>03</p>
-                                    </div>
-                                    <div class="schedule-preview-text">
-                                        <p>국제거리</p>
-                                        <p>11월 6일 &middot; 일정 <span class="schedule-count"></span>개</p>
-                                    </div>
                                     <button type="button" class="schedule-detail-button">
-                                        <span class="blind">자세히 보기</span>
+                                        <div class="day-box">
+                                            <p>DAY</p>
+                                            <p>03</p>
+                                        </div>
+                                        <div class="schedule-preview-text">
+                                            <p>국제거리</p>
+                                            <p>11월 6일 &middot; 일정 <span class="schedule-count"></span>개</p>
+                                        </div>
                                     </button>
                                 </li>
                                 <li>
-                                    <div class="day-box">
-                                        <p>DAY</p>
-                                        <p>04</p>
-                                    </div>
-                                    <div class="schedule-preview-text">
-                                        <p>오키나와 나하 &#x2708; 한국</p>
-                                        <p>11월 7일 &middot; 일정 <span class="schedule-count"></span>개</p>
-                                    </div>
                                     <button type="button" class="schedule-detail-button">
-                                        <span class="blind">자세히 보기</span>
+                                        <div class="day-box">
+                                            <p>DAY</p>
+                                            <p>04</p>
+                                        </div>
+                                        <div class="schedule-preview-text">
+                                            <p>오키나와 나하 &#x2708; 한국</p>
+                                            <p>11월 7일 &middot; 일정 <span class="schedule-count"></span>개</p>
+                                        </div>
                                     </button>
                                 </li>
                             </ul>
@@ -361,6 +359,7 @@
                     <div class="article-header">
                         <h2>지도</h2>
                     </div>
+                    <div class="article-body"></div>
                 </article>
                 <article class="shopping">
                     <div class="article-header">
