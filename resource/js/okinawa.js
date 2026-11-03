@@ -76,4 +76,51 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
+    const STORAGE_KEY = 'travel_supply_checklist';
+    const supplyList = document.getElementById('supplyList');
+
+    if (!supplyList) return;
+
+    const checkboxes = supplyList.querySelectorAll('input[type="checkbox"]');
+
+    // 저장된 체크 상태 불러오기
+    function loadChecklist() {
+        try {
+            const savedData = localStorage.getItem(STORAGE_KEY);
+
+            if (!savedData) return;
+
+            const checkedItems = JSON.parse(savedData);
+
+            checkboxes.forEach((checkbox, index) => {
+                checkbox.checked = checkedItems[index] === true;
+            });
+        } catch (error) {
+            console.error('체크리스트 불러오기 실패:', error);
+        }
+    }
+
+    // 현재 체크 상태 저장하기
+    function saveChecklist() {
+        const checkedItems = Array.from(checkboxes).map(
+            checkbox => checkbox.checked
+        );
+
+        try {
+            localStorage.setItem(
+                STORAGE_KEY,
+                JSON.stringify(checkedItems)
+            );
+        } catch (error) {
+            console.error('체크리스트 저장 실패:', error);
+        }
+    }
+
+    // 체크 상태 변경 시 자동 저장
+    checkboxes.forEach(checkbox => {
+        checkbox.addEventListener('change', saveChecklist);
+    });
+
+    // 페이지 진입 시 저장된 상태 복원
+    loadChecklist();
 });
