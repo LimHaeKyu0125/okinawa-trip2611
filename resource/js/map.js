@@ -247,6 +247,24 @@ document.addEventListener('DOMContentLoaded', () => {
                     ]
                 },
                 {
+                    id: 'shopping',
+                    name: '쇼핑',
+                    icon: '🛒',
+                    places: [
+                        {
+                            id: 'shopping01',
+                            name: '이온몰 차탄점',
+                            description: '아메리칸 빌리지 근처에 있는 대형 쇼핑몰',
+                            image: 'https://lh3.googleusercontent.com/grass-cs/AABkmLfG4-fEaUVKTTOtb1p5Fo0xTSmXBmumrf6H74R8OYvpHqNEAopd7U4igLP9nahylHalxbrudZjiBXbV7fso_t5DCmslmcVIgr7zenFgWEkRMZnZa-Sa1QMbwYGISGRjd_nUHLI-HQELedGR=w408-h306-k-no',
+                            address: '8-3 Mihama, Chatan, Nakagami District, Okinawa 904-0115',
+                            price: '¥무제한',
+                            time: '09:00 ~ 22:00',
+                            memo: '주차도 하고 쇼핑도 하고~',
+                            googleMaps: '이온몰 차탄점, 8-3 Mihama, Chatan, Nakagami District, Okinawa 904-0115'
+                        },
+                    ]
+                },
+                {
                     id: 'tour',
                     name: '관광',
                     icon: '📸',
