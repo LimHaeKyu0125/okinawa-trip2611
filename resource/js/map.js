@@ -423,6 +423,24 @@ document.addEventListener('DOMContentLoaded', () => {
                             googleMaps: '그랜드컨소트나하, 1 Chome-18-25 Matsuo, Naha, Okinawa 900-0014'
                         }
                     ]
+                },
+                {
+                    id: 'car',
+                    name: '렌터카',
+                    icon: '🚗',
+                    places: [
+                        {
+                            id: 'car01',
+                            name: 'SKY RENT A CAR Naha Airport',
+                            description: '3박 4일을 책임질 렌트카 업체',
+                            image: 'https://lh3.googleusercontent.com/grass-cs/AABkmLf96pe7_FLLrKlg6GUbW-KcSm7KgDxkZR1Y5YgBQIe9HQr4dwh1zsoLzrBw4tlM9YrTCbK6SHS7FhNYG24FSsEtwAt-KJc5E4IKwX149xGKZjGGQNLWGDSCXuAJwjvgEGQj9-8=w408-h306-k-no',
+                            address: '1 Chome-23-8 Gushi, Naha, Okinawa 901-0146',
+                            price: '¥15,000 (3박 4일)',
+                            time: '00:00 ~ 20:00',
+                            memo: '안전운전하쟝',
+                            googleMaps: 'SKY RENT A CAR Naha Airport, 1 Chome-23-8 Gushi, Naha, Okinawa 901-0146'
+                        }
+                    ]
                 }
             ]
         }
